@@ -11,15 +11,15 @@
     right: 0;
     z-index: 1000;
     border-top: 0;
-    background-color: #100c87;
-    //border-bottom: 1px solid gray;
+    //background-color: #100c87;
+
     -webkit-animation: navShow .4s;
     -moz-animation: navShow .4s;
     -ms-animation: navShow .4s;
     -o-animation: navShow .4s;
     animation: navShow .4s;
   }
-  background-color: #221eb0;
+  //background-color: #221eb0;
   @include transition(background-color, .2s, linear);
 
   z-index: 1;
@@ -29,9 +29,7 @@
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
   }
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    //border-color: transparent;
-  }
+
 }
 .logo{
   padding: 0;

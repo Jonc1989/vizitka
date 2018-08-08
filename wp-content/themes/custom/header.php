@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/resources/vendor/bootstrap.min.css">
 	<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
-
+	<script src="<?php bloginfo('template_directory');?>/resources/vendor/jquery-3.2.1.min.js"></script>
 	<?php wp_head();?>
 </head>
 <body>

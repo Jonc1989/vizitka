@@ -45,23 +45,10 @@ var stickyNav = function(){
 
 };
 
-get_team_members = function ( more ) {
-
-    if(more){
-        $('.team-member').slice(4).slideToggle( 400 );
-        $('.more-btn').removeClass('more')
-        equalheight('.team-member');
-    }else{
-        $('.team-member').slice(4).slideToggle( 400 );
-        $('.more-btn')
-          .addClass('more')
-    }
-};
 
 jQuery( document ).ready( function(){
 
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
+
 
     stickyNav();
 
@@ -70,24 +57,8 @@ jQuery( document ).ready( function(){
     });
 
     var links = jQuery( '.nav li a' );
-    animateScroll( links[ 0 ] );
-    animateScroll( links[ 1 ] );
-    animateScroll( links[ 2 ] );
-    animateScroll( links[ 3 ] );
-    //
-    //
-    //
-    // jQuery( document ).on( 'click', '.colapse-icon', function () {
-    //     jQuery( '.side-menu' ).toggleClass( 'open' );
-    //     jQuery( '.content-wrap' ).toggleClass( 'extended' );
-    // } )
-
-    
-    $(document).ready(function () {
-
-        $(document).on('click', '.more-btn', function () {
-            var more = $(this).hasClass('more');
-            get_team_members(more);
-        });
-    });
+    // animateScroll( links[ 0 ] );
+    // animateScroll( links[ 1 ] );
+    // animateScroll( links[ 2 ] );
+    // animateScroll( links[ 3 ] );
 });
