@@ -1,0 +1,33 @@
+#footer{
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+  .logo-wrap{
+    margin-bottom: 5rem;
+  }
+  li{
+    display: inline-block;
+  }
+}
+.soc-icons{
+  margin-bottom: 7rem;
+}
+.left-block{
+  a{
+    color: white;
+    margin-right: 40px;
+  }
+  a:last-of-type{
+    margin-right: 0px;
+  }
+}
+.right-block{
+  text-align: right;
+  img, svg{
+    height: 32px;
+  }
+  a:hover{
+    .st0{
+      fill:#6cb319;
+    }
+  }
+}

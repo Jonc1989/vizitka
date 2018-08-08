@@ -1,0 +1,27 @@
+
+@mixin max-content() {
+  width: max-content;
+  width: -moz-max-content;
+}
+@mixin bg-size( $value ){
+  -webkit-background-size: $value;
+  -moz-background-size: $value;
+  -o-background-size: $value;
+  background-size: $value;
+}
+
+@mixin transition( $property, $speed, $easing ){
+  -webkit-transition: $property $speed $easing;
+  -moz-transition: $property $speed $easing;
+  -ms-transition: $property $speed $easing;
+  -o-transition: $property $speed $easing;
+  transition: $property $speed $easing;
+}
+
+@mixin display-flex(){
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}

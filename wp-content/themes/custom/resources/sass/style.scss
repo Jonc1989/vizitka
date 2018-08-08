@@ -1,0 +1,158 @@
+
+@import "_fonts";
+@import "_variables";
+
+/* PARTIALS */
+@import "partials/index";
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+}
+body{
+//  font-family: 'Montserrat-Regular', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+body > .container{
+  position:relative;
+  min-height:100%;
+}
+
+a, button {
+   outline: 0;
+   text-decoration: none;
+   text-decoration-style: unset;
+   text-decoration-color: unset;
+}
+
+button{
+  padding: 2.3rem 9.4rem;
+  border: none;
+  border-radius: 3px;
+}
+a:focus, a:hover {
+  outline: 0;
+  text-decoration: none;
+  text-decoration-style: unset;
+  text-decoration-color: unset;
+}
+.full-width{
+  width: 100%;
+}
+.title{
+  font-family: 'Montserrat Bold', sans-serif;
+  padding-bottom: 3.5rem;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+}
+.clear-pads{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+.no-pad-right{
+  padding-right: 0px!important;
+}
+
+ul{
+  list-style: none;
+}
+ul, menu, dir {
+  -webkit-padding-start: 0px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.bold{
+  font-family: 'Montserrat Bold', sans-serif;
+}
+.black{
+  color: $color-black;
+}
+.dark{
+  color: $color-dark;
+}
+.light-blue{
+  color: $color-light-blue;
+}
+.gray{
+  color: $color-gray;
+}
+.gray-darker{
+  color: $color-gray-darker;
+}
+.white{
+  color: white;
+}
+.green{
+  color: $color-green;
+}
+.circle{
+  border-radius: 50%;
+}
+.white-bg{
+  background-color: white;
+}
+
+.gray-bg{
+  background-color: $color-gray;
+}
+.green-bg{
+  background-color: $color-green;
+}
+.dark-bg{
+  background-color: $color-dark;
+}
+.black-bg{
+  background-color: $color-black;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.inline{
+  display: inline-block;
+}
+.center-horizontaly{
+  @include display-flex();
+  align-items: center;
+}
+
+.collapse-arrow{
+  @include transition( transform, .35s, ease-out );
+}
+.bullet{
+  @include transition( transform, .2s, ease-out );
+}
+
+.blue-border-top{
+  border-top: solid 1px $color-blue;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  //word-break: break-all;
+}
+.counter-wrap p{
+  font-size: 1.2rem;
+}
+.title, .post-wrap h3, button, .st0{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.navbar-default .navbar-nav > li > a{
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+
+@import "responsive/_lg";
+@import "responsive/_md";
+@import "responsive/_sm";
