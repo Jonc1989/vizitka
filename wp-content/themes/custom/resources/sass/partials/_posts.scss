@@ -1,28 +1,36 @@
 #posts{
-  padding-bottom: 9rem;
+  padding-top: 10rem;
 
 
-  background: url(resources/images/bg3.png)no-repeat right center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: url(resources/images/dots.png)no-repeat center center;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
 
 }
-.posts-wrap{
-
+.post-content{
+  font-size: 18px;
+  line-height: 1.78;
 }
 .post{
+  margin-bottom: 5rem;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
   height: 300px;
-  .image-wrap{
+  .image-wrap, .post-img{
     height: 100%;
   }
+
   &:nth-of-type(even){
     .image-wrap{
       float: right;
     }
   }
 }
-
-
-
+.post-wrap{
+  height: 100%;
+  @include display-flex();
+  align-items: center;
+}

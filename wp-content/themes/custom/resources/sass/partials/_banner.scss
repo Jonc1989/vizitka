@@ -2,13 +2,99 @@
   position: relative;
 }
 #banner{
-  padding-top: 20rem;
-  padding-bottom: 12rem;
+  padding-top: 30rem;
 
   background: url(resources/images/top-bg.png)no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  .title{
+    padding-bottom: 3.5rem;
+  }
+  .left-block{
+    margin-bottom: 3rem;
+    p{
+      font-size: 1.8rem;
+      line-height: 1.78;
+      margin-bottom: 2.8rem;
+    }
+    button{
+      width: 264px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 2;
+      color: #6cb319;
+      border: solid 3px #6cb319;
+      background-color: transparent;
+    }
+  }
 }
+.subscribe{
+  width: 827px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  float: none;
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #ffffff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+  }
+  p{
+    padding-left: 21px;
+    &::before{
+      content: '';
+      width: 11px;
+      height: 11px;
+      background-color: #6cb319;
+      position: absolute;
+      border-radius: 50%;
+      top: 4px;
+      left: 0px;
+    }
+  }
 
+
+}
+.es_lablebox{
+  display: none;
+}
+.es_textbox, .es_button{
+  display: inline-block;
+}
+.es_textbox{
+  input{
+    width: 53.8rem;
+    height: 6rem;
+    border-radius: 3px;
+    background-color: transparent;
+    border: solid 2px #170e49;
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+  }
+}
+.es_button{
+  input{
+    width: 264px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #6cb319;
+    border: none;
+    font-size: 1.6rem;
+  }
+}
+.divider{
+  width: 3rem;
+  height: 1px;
+  border-radius: 0.5px;
+  background-color: #ffffff;
+  margin-bottom: 2.5rem;
+}

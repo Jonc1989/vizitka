@@ -1,331 +1,35 @@
-@media (max-width: 1199px) {
-  .post-wrap{
-    h3{
-      font-size: 20px;
-    }
-  }
-}
-
-@media (max-width: 991px) {
-  .nav > li > a {
-    font-size: 11px;
-  }
-  .logo {
-    width: 10.5rem;
-  }
-  .post-wrap{
-    h3{
-      font-size: 18px;
-    }
-    .description-post-img {
-      height: 60px;
-      width: unset;
-      max-width: 100%;
-    }
-  }
-  .title{
-    font-size: 28px;
-  }
-  .progress-bar-wrap{
-    .inline{
-      display: block;
-      float: none !important;
-      margin-bottom: 5px;
-    }
-  }
-  .dropdown-toggle {
-    padding-left: 10px;
-  }
-}
-
-@media (max-width: 767px){
-  #footer{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    .left-block{
-      margin-bottom: 2rem;
-      text-align: center;
-      .logo{
-        margin: 0 auto;
-      }
-      .logo-wrap {
-        margin-bottom: 2rem;
-      }
-    }
-    .right-block {
-      text-align: center;
-      a{
-        float: none;
-        //margin-right: 0px;
-      }
-    }
-    .soc-icons {
-      margin-bottom: 3rem;
-    }
-  }
-  #banner{
-    padding-top: 12rem;
-    padding-bottom: 8rem;
-    button {
-      padding: 2rem 2rem;
-    }
-  }
-  #about{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    img{
-      max-height: 300px;
-    }
-  }
-  #posts{
-    padding-bottom: 5rem;
-    .title {
-      padding-bottom: 5rem;
-    }
-  }
-  #advantages {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    .light-blue {
-      margin-bottom: 5rem;
-    }
-  }
-  .right-block{
-    a{
-      margin-right: 40px;
-    }
-    a:last-of-type{
-      margin-right: 0px;
-    }
-  }
-  .menu-container {
-    //position: relative;
-  }
-  .progress-bar-wrap, .wall-left {
-    margin-bottom: 2rem;
-  }
-  #banner{
-    .left-side{
-      margin-bottom: 30px;
-    }
-  }
-  .title{
-    font-size: 24px;
-  }
-  #about p, .question-title {
-    font-size: 14px;
-  }
-  .question-title {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  button {
-    padding: 2rem 5rem;
-  }
-  .modal-dialog{
-    height: 52vw;
-    iframe{
-      height: 100%;
-    }
-  }
-  .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
-    padding: 5px 15px 5px 0px;
-  }
-  .dropdown-menu {
-    padding: 0px 0;
-  }
-  .open>.dropdown-menu {
-    display: inline-block;
-  }
-  .caret{
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    transform-origin: 100% 100%;
-    margin-left: -7px;
-    margin-top: 1px;
-  }
-  .nav.navbar-nav li:nth-of-type(6) a:hover {
-    color: $color-green;
-  }
-  .menu-container {
-    padding-top: 2rem;
-    padding-bottom: 0rem;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .team-member{
-    width: 100%;
-  }
-  .title {
-    font-size: 20px;
-  }
-  .post-number {
-    width: 3rem;
-    height: 3rem;
-    padding-top: 0.8rem;
-    font-size: 1.6rem;
-  }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .nav.navbar-nav li:nth-of-type(6) a {
-    padding: 6px 14px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .title-block{
-    padding-left: 0;
-    h4{
-      font-size: 16px;
-    }
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .container-fluid {
-    padding-right: 0px;
-  }
-  .nav>li>a {
-    padding-top: 6px;
-  }
-  .dropdown-toggle {
-    padding-top: 6px;
-  }
-  .nav {
-    padding-top: 3px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .nav.navbar-nav li:nth-of-type(6) a {
-    margin-top: 4px;
-  }
-}
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px){
   .navbar-nav {
     float: right;
   }
-  .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  .right-block{
-    a{
-      float: right;
-      margin-right: 40px;
-    }
-    a:first-of-type{
-      margin-right: 0px;
-    }
-  }
-
-  .nav.navbar-nav li:nth-of-type(6) a {
-    background-color: #6cb319;
-  }
-  //.sticky {
-  //  .container-fluid{
-  //    display: flex;
-  //  }
-  //  .navbar-collapse{
-  //    width: 100%;
-  //    transition: all 1s linear;
-  //  }
-  //  .navbar-nav{
-  //    display: flex;
-  //    width: 100%;
-  //    transition: all 1s linear;
-  //    justify-content: space-between;
-  //  }
-  //}
 }
-
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-  #posts{
-    .shadow{
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-right: 30px;
-      padding-left: 30px;
+@media (min-width: 1200px){
+  #banner {
+    .right-block{
+      margin-top: -50px;
     }
-  }
-  .post-number {
-    width: 4rem;
-    height: 4rem;
-    padding-top: 1.2rem;
-    font-size: 2rem;
-  }
-  .modal-dialog {
-    width: 900px;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .nav.navbar-nav{
-    li:nth-of-type(6){
-      a{
-        padding: 10px 21px;
+    img {
+      max-width: 110%;
+    }
+    .left-block {
+      p:first-of-type{
+        max-width: 43rem;
       }
     }
   }
-  #banner{
-    .wall-left{
-      max-width: 285px;
+}
+@media (min-width: 1360px){
+  #banner {
+    .right-block{
+      margin-top: -80px;
+    }
+    img {
+      max-width: 127%;
     }
   }
-  .timer{
-    width: 52rem;
-    float: right;
-  }
-  .post-wrap{
-    padding-right: 2.1rem;
-    padding-left: 0;
-  }
-  .post-wrap:nth-of-type(2n){
-    padding-left: 2.1rem;
-    padding-right: 0;
-  }
-  #posts{
-    .shadow{
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-right: 60px;
-      padding-left: 60px;
-    }
-  }
-  .post-number {
-    width: 5.8rem;
-    height: 5.8rem;
-    padding-top: 1.6rem;
-    font-size: 2.7rem;
-  }
-  .nav > li > a {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-  }
-  #about{
-    p{
-      max-width: 450px;
-    }
-    .more-info{
-      margin-top: 7rem;
-    }
+}
+@media (max-width: 1360px){
+  #banner {
+    padding-top: 22rem;
   }
 }

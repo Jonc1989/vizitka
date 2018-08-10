@@ -1,32 +1,42 @@
-<div id="footer" class="col-xs-12 clear-pads black-bg white">
+<div id="footer" class="col-xs-12 clear-pads white">
 	<div class="container clear-pads">
 
-
-		<div class="">
-			<div>
-				<img src="">
+		<div class="footer-container">
+			<div class="block-chain">
+				
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/block-chain.svg">
+				
+				<div class="text">
+					<h1 class="title">Технология Blockchain</h1>
+					<p>Блокчейн обеспечивает высокий уровень защиты и идентификации</p>
+				</div>
 			</div>
-			<div>
-				<h4>Технология Blockchain</h4>
-				<p>Блокчейн обеспечивает высокий уровень защиты и идентификации</p>
+	
+			<div class="col-md-12 center soc-icons">
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/linkedin.svg">
+				</a>
+	
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg">
+				</a>
+	
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/instagram.svg">
+				</a>
+	
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/facebook.svg">
+				</a>
+	
+				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/gmail.svg">
+				</a>
 			</div>
+	
+			<?php get_template_part('partials/subscribe');?>
 		</div>
-
-		<div class="col-md-12 center">
-			<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-				<img src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg">
-			</a>
-
-			<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-				<img src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg">
-			</a>
-
-			<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-				<img src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg">
-			</a>
-		</div>
-
-		<?php get_template_part('partials/subscribe');?>
+		<p class="copyright center">© TaxFree Blockchain 2018</p>
 	</div>
 </div>
 

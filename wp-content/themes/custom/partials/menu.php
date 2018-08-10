@@ -39,7 +39,8 @@
                                 <button class="dropdown-toggle" type="button" data-toggle="dropdown">
                                     <span class="locale"><?php echo qtranxf_getLanguage(); ?></span>
                                     <span class="caret">
-                                        <img src="<?php bloginfo('template_directory');?>/resources/images/caret.png">
+                                        <img class="caret-white" src="<?php bloginfo('template_directory');?>/resources/images/caret-white.png">
+                                        <img class="caret-black" src="<?php bloginfo('template_directory');?>/resources/images/caret-black.png">
                                     </span>
                                 </button>
                                 <ul class="dropdown-menu">

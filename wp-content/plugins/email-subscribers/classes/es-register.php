@@ -1414,20 +1414,20 @@ class es_cls_registerhook {
                         <label class="es_<?php echo $es_pre ?>_form_name"><?php echo __( 'Name', ES_TDOMAIN ); ?></label>
                     </div>
                     <div class="es_textbox">
-                        <input type="text" id="es_txt_name" class="es_textbox_class" name="es_txt_name" value="" maxlength="60">
+                        <input type="text" id="es_txt_name" class="es_textbox_class" name="es_txt_name" value="" maxlength="60" placeholder="<?php echo __( 'email', 'taxfree' ) ?>">
                     </div>
 				<?php } ?>
                 <div class="es_lablebox">
                     <label class="es_<?php echo $es_pre ?>_form_email"><?php echo __( 'Email *', ES_TDOMAIN ); ?></label>
                 </div>
                 <div class="es_textbox">
-                    <input type="email" id="es_txt_email" class="es_textbox_class" name="es_txt_email" value="" maxlength="60" required>
+                    <input type="email" id="es_txt_email" class="es_textbox_class" name="es_txt_email" value="" maxlength="60" required placeholder="<?php echo __( 'Email placeholder', 'taxfree' ) ?>">
                 </div>
 				<?php if ( ( in_array( 'gdpr/gdpr.php', $active_plugins ) || array_key_exists( 'gdpr/gdpr.php', $active_plugins ) ) ) {
 					echo GDPR::consent_checkboxes();
 				} ?>
                 <div class="es_button">
-                    <input type="submit" id="es_txt_button" class="es_textbox_button es_submit_button" name="es_txt_button" value="<?php echo __( 'Subscribe', ES_TDOMAIN ); ?>">
+                    <input type="submit" id="es_txt_button" class="es_textbox_button es_submit_button" name="es_txt_button" value="<?php echo __( 'Подписаться', 'taxfree' ) ?>">
                 </div>
                 <div class="es_msg" id="es_<?php echo $es_pre ?>_msg">
                     <span id="es_msg"></span>
