@@ -1,13 +1,5 @@
 #posts{
   padding-top: 10rem;
-
-
-  background: url(resources/images/dots.png)no-repeat center center;
-  -webkit-background-size: 80%;
-  -moz-background-size: 80%;
-  -o-background-size: 80%;
-  background-size: 80%;
-
 }
 .post-content{
   font-size: 18px;
@@ -18,7 +10,7 @@
   &:last-of-type{
     margin-bottom: 0;
   }
-  height: 300px;
+
   .image-wrap, .post-img{
     height: 100%;
   }

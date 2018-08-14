@@ -2,6 +2,22 @@
   .navbar-nav {
     float: right;
   }
+  #banner {
+    .right-block {
+      float: right;
+    }
+  }
+  #posts{
+    background: url(resources/images/dots.png)no-repeat center center;
+    -webkit-background-size: 80%;
+    -moz-background-size: 80%;
+    -o-background-size: 80%;
+    background-size: 80%;
+  }
+  .post {
+    height: 300px;
+  }
+
 }
 @media (min-width: 1200px){
   #banner {
@@ -15,6 +31,14 @@
       p:first-of-type{
         max-width: 43rem;
       }
+    }
+  }
+  #posts{
+    h1{
+      max-width: 43.5rem;
+    }
+    p{
+      max-width: 49rem;
     }
   }
 }
@@ -31,5 +55,144 @@
 @media (max-width: 1360px){
   #banner {
     padding-top: 22rem;
+  }
+}
+@media (max-width: 1199px){
+  #banner {
+    padding-top: 17rem;
+    .left-block{
+      p, .divider {
+        margin-bottom: 1.5rem;
+      }
+      p, .post-content {
+        font-size: 1.6rem;
+        line-height: 1.5;
+      }
+      button{
+        width: 250px;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+    .title{
+      padding-bottom: 2rem;
+    }
+  }
+  .title {
+    font-size: 26px;
+  }
+  .subscribe, .footer-container{
+    width: 100%;
+  }
+  .subscribe {
+    .es_textbox, .es_button{
+      input{
+        height: 4rem;
+      }
+    }
+    .es_textbox{
+      width: 60%;
+      input{
+        font-size: 1.6rem;
+        width: 98%;
+        margin-right: 0;
+      }
+    }
+    .es_button{
+      width: 38%;
+      input{
+        width: 100%;
+      }
+    }
+  }
+  .block-chain{
+    p {
+      font-size: 1.4rem;
+    }
+    img {
+      width: 6.9rem;
+    }
+  }
+
+}
+@media (max-width: 767px){
+  #banner{
+    padding-top: 8rem;
+    text-align: center;
+    .left-block{
+      .divider {
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  .subscribe{
+    width: 60%;
+    .es_button, .es_textbox{
+      width: 100%;
+      input{
+        width: 100%;
+      }
+    }
+  }
+  #posts {
+    padding-top: 7rem;
+    .post{
+      text-align: center;
+      .post-img{
+        height: 15rem;
+      }
+    }
+  }
+  #footer {
+    padding-top: 30rem;
+  }
+  .soc-icons a {
+    margin-right: 5rem;
+  }
+  .menu-container {
+    background-color: #24195e;
+    padding-top: 1rem;
+    .navbar-header {
+      height: 35px;
+    }
+    .navbar-toggle {
+      margin-bottom: 0px;
+    }
+    .logo {
+      width: 11.2rem;
+      height: 3.5rem;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: #24195e;
+    }
+    .navbar-collapse {
+      box-shadow: none;
+    }
+    .navbar-default .navbar-nav > li > a {
+      color: #ffffff;
+      //font-size: 18px;
+    }
+    .dropdown-toggle {
+      padding-left: 8px;
+    }
+    .dropdown{
+
+      .locale {
+        //font-size: 16px;
+        color: #ffffff;
+      }
+    }
+    .open>.dropdown-menu {
+      display: inline-block;
+    }
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+    padding: 5px 15px 5px 0px;
+  }
+}
+@media (max-width: 600px){
+  .subscribe {
+    width: 80%;
   }
 }

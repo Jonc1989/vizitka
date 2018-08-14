@@ -224,6 +224,11 @@
 }
 .caret-white{
   display: none;
+  //transform: rotate(-90deg);
+  //-webkit-transform: rotate(-90deg);
+  //-moz-transform: rotate(-90deg);
+  //-ms-transform: rotate(-90deg);
+  //-o-transform: rotate(-90deg);
 }
 .sticky{
   .navbar-default .navbar-nav>li>a, .dropdown .locale {
@@ -247,6 +252,11 @@
   }
   .caret-black{
     display: none;
+    //transform: rotate(-90deg);
+    //-webkit-transform: rotate(-90deg);
+    //-moz-transform: rotate(-90deg);
+    //-ms-transform: rotate(-90deg);
+    //-o-transform: rotate(-90deg);
   }
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {

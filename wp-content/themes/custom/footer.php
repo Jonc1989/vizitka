@@ -1,5 +1,5 @@
-<div id="footer" class="col-xs-12 clear-pads white">
-	<div class="container clear-pads">
+<div id="footer" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pads white">
+	<div class="container">
 
 		<div class="footer-container">
 			<div class="block-chain">
