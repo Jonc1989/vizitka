@@ -147,9 +147,16 @@
   #footer {
     padding-top: 30rem;
   }
-  .soc-icons a {
-    margin-right: 5rem;
+  .soc-icons{
+    a {
+      margin-right: 5rem;
+    }
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
   }
+
   .menu-container {
     background-color: #24195e;
     padding-top: 1rem;
@@ -194,5 +201,25 @@
 @media (max-width: 600px){
   .subscribe {
     width: 80%;
+  }
+  .soc-icons a {
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 480px){
+  .title {
+    font-size: 24px;
+  }
+  .post-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .soc-icons a {
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 360px){
+  .soc-icons a {
+    margin-right: 1rem;
   }
 }
