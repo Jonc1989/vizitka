@@ -11,32 +11,120 @@
 					<p>Блокчейн обеспечивает высокий уровень защиты и идентификации</p>
 				</div>
 			</div>
-	
-			<div class="col-md-12 center soc-icons">
-				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/linkedin.svg">
+
+			<style type="text/css">
+				.st0{fill:#FFFFFF;}
+			</style>
+			
+			<div class="center soc-icons">
+				<a target="_blank" href="<?php echo get_option( 'instagram_input' ); ?>">
+
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					     viewBox="-272 396.2 49.7 49.7" style="enable-background:new -272 396.2 49.7 49.7;" xml:space="preserve">
+						<g>
+							<g>
+								<g>
+									<path class="st0" d="M-242.6,417.5c-2.1,0-3.1,1.2-3.6,2v-1.7h-4c0.1,1.1,0,12,0,12h4v-6.7c0-0.4,0-0.7,0.1-1
+				c0.3-0.7,0.9-1.5,2.1-1.5c1.4,0,2,1.1,2,2.7v6.4h4h0V423C-238,419.3-240,417.5-242.6,417.5z M-246.3,419.6L-246.3,419.6
+				C-246.3,419.6-246.3,419.5-246.3,419.6L-246.3,419.6z"/>
+									<rect x="-256.5" y="417.8" class="st0" width="4" height="12"/>
+									<path class="st0" d="M-247.2,396.2c-13.7,0-24.8,11.1-24.8,24.8c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8
+				C-222.3,407.4-233.5,396.2-247.2,396.2z M-234,432.3c0,1.1-0.9,1.9-2,1.9h-22.6c-1.1,0-2-0.9-2-1.9v-22.8c0-1.1,0.9-1.9,2-1.9
+				h22.6c1.1,0,2,0.9,2,1.9V432.3z"/>
+									<path class="st0" d="M-254.4,412c-1.4,0-2.3,0.9-2.3,2.1c0,1.2,0.9,2.1,2.2,2.1h0c1.4,0,2.3-0.9,2.3-2.1
+				C-252.2,412.9-253.1,412-254.4,412z"/>
+								</g>
+							</g>
+						</g>
+					</svg>
+					
+<!--					<img src="--><?php //bloginfo('template_directory');?><!--/resources/images/svg/linkedin.svg">-->
 				</a>
 	
 				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/twitter.svg">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					     viewBox="-272 396.2 49.7 49.7" style="enable-background:new -272 396.2 49.7 49.7;" xml:space="preserve">
+					
+						<g>
+							<g>
+								<path class="st0" d="M-247.2,396.2c-13.7,0-24.8,11.1-24.8,24.8c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8
+			C-222.3,407.4-233.5,396.2-247.2,396.2z M-236.1,415.4c0,0.2,0,0.5,0,0.7c0,7.6-5.7,16.3-16.3,16.3c-3.2,0-6.2-0.9-8.8-2.6
+			c0.4,0.1,0.9,0.1,1.4,0.1c2.7,0,5.1-0.9,7.1-2.4c-2.5,0-4.6-1.7-5.3-4c0.3,0.1,0.7,0.1,1.1,0.1c0.5,0,1-0.1,1.5-0.2
+			c-2.6-0.5-4.6-2.8-4.6-5.6c0,0,0,0,0-0.1c0.8,0.4,1.7,0.7,2.6,0.7c-1.5-1-2.5-2.8-2.5-4.8c0-1,0.3-2,0.8-2.9c2.8,3.5,7,5.7,11.8,6
+			c-0.1-0.4-0.1-0.9-0.1-1.3c0-3.2,2.6-5.7,5.7-5.7c1.6,0,3.1,0.7,4.2,1.8c1.3-0.3,2.5-0.7,3.6-1.4c-0.4,1.3-1.3,2.5-2.5,3.2
+			c1.2-0.1,2.3-0.4,3.3-0.9C-234,413.6-235,414.6-236.1,415.4z"/>
+							</g>
+						</g>
+					</svg>
+
 				</a>
 	
-				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/instagram.svg">
+				<a target="_blank" href="<?php echo get_option( 'linkedin_input' ); ?>">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					     viewBox="-272 396.2 49.7 49.7" style="enable-background:new -272 396.2 49.7 49.7;" xml:space="preserve">
+					
+						<g>
+							<g>
+								<g>
+									<path class="st0" d="M-247.2,426c2.7,0,5-2.2,5-5c0-1.1-0.4-2.1-0.9-2.9c-0.9-1.3-2.4-2.1-4-2.1c-1.7,0-3.1,0.8-4,2.1
+				c-0.6,0.8-0.9,1.8-0.9,2.9C-252.1,423.8-249.9,426-247.2,426z"/>
+									<polygon class="st0" points="-236.3,415 -236.3,410.8 -236.3,410.2 -236.9,410.2 -241.1,410.2 -241.1,415 			"/>
+									<path class="st0" d="M-247.2,396.2c-13.7,0-24.8,11.1-24.8,24.8c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8
+				C-222.3,407.4-233.5,396.2-247.2,396.2z M-233.1,418.2v11.6c0,3-2.4,5.5-5.5,5.5h-17.3c-3,0-5.5-2.4-5.5-5.5v-11.6v-5.8
+				c0-3,2.4-5.5,5.5-5.5h17.3c3,0,5.5,2.4,5.5,5.5V418.2z"/>
+									<path class="st0" d="M-239.5,421.1c0,4.3-3.5,7.7-7.7,7.7c-4.3,0-7.7-3.5-7.7-7.7c0-1,0.2-2,0.6-2.9h-4.2v11.6
+				c0,1.5,1.2,2.7,2.7,2.7h17.3c1.5,0,2.7-1.2,2.7-2.7v-11.6h-4.2C-239.7,419.1-239.5,420-239.5,421.1z"/>
+								</g>
+							</g>
+						</g>
+					</svg>
 				</a>
 	
-				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/facebook.svg">
+				<a target="_blank" href="<?php echo get_option( 'facebook_input' ); ?>">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					     viewBox="-272 396.2 49.7 49.7" style="enable-background:new -272 396.2 49.7 49.7;" xml:space="preserve">
+						<g>
+							<g>
+								<path class="st0" d="M-247.2,396.2c-13.7,0-24.8,11.1-24.8,24.8c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8
+			C-222.3,407.4-233.5,396.2-247.2,396.2z M-241,421.9h-4c0,6.5,0,14.4,0,14.4h-6c0,0,0-7.9,0-14.4h-2.8v-5.1h2.8v-3.3
+			c0-2.4,1.1-6,6-6l4.4,0v4.9c0,0-2.7,0-3.2,0s-1.3,0.3-1.3,1.4v3h4.6L-241,421.9z"/>
+							</g>
+						</g>
+					</svg>
 				</a>
 	
-				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">
-					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/gmail.svg">
+				<a target="_blank" href="<?php echo get_option( 'google_input' ); ?>">
+					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					     viewBox="-272 396.2 49.7 49.7" style="enable-background:new -272 396.2 49.7 49.7;" xml:space="preserve">
+						<g>
+							<g>
+								<g>
+									<path class="st0" d="M-250.5,425.2c-0.2-0.1-0.3-0.2-0.5-0.3c-0.5-0.2-1-0.2-1.6-0.2h-0.1c-2.5,0-4.7,1.5-4.7,3.3
+				c0,1.9,1.9,3.4,4.3,3.4c3.2,0,4.8-1.1,4.8-3.3c0-0.2,0-0.4-0.1-0.6C-248.6,426.5-249.3,426-250.5,425.2z"/>
+									<path class="st0" d="M-252.3,418.6C-252.3,418.6-252.3,418.6-252.3,418.6c0.6,0,1.1-0.2,1.5-0.7c0.6-0.7,0.9-1.9,0.7-3.1
+				c-0.3-2.2-1.8-4-3.5-4.1l-0.1,0c-0.6,0-1.1,0.2-1.5,0.7c-0.6,0.7-0.9,1.8-0.7,3C-255.5,416.7-253.9,418.5-252.3,418.6
+				L-252.3,418.6L-252.3,418.6z"/>
+									<path class="st0" d="M-247.2,396.2c-13.7,0-24.8,11.1-24.8,24.8c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8
+				C-222.3,407.4-233.5,396.2-247.2,396.2z M-250,433.2c-0.9,0.3-2,0.4-3,0.4c-1.2,0-2.3-0.1-3.4-0.4c-2.1-0.5-3.6-1.5-4.3-2.8
+				c-0.3-0.5-0.5-1.1-0.5-1.7c0-0.6,0.1-1.3,0.4-1.9c1.1-2.4,4.1-4,7.4-4c0,0,0.1,0,0.1,0c-0.3-0.5-0.4-1-0.4-1.5
+				c0-0.3,0-0.5,0.1-0.8c-3.5-0.1-6-2.6-6-5.9c0-2.4,1.9-4.6,4.6-5.6c0.8-0.3,1.6-0.4,2.4-0.4h7.4c0.3,0,0.5,0.2,0.6,0.4
+				c0.1,0.2,0,0.5-0.2,0.6l-1.7,1.2c-0.1,0.1-0.2,0.1-0.3,0.1h-0.6c0.8,0.9,1.2,2.2,1.2,3.7c0,1.6-0.8,3.1-2.3,4.3
+				c-1.2,0.9-1.2,1.1-1.2,1.7c0,0.3,0.8,1.2,1.7,1.8c2.1,1.5,2.8,2.9,2.8,5.3C-245.2,430.2-247.1,432.3-250,433.2z M-233.4,420.5
+				c0,0.3-0.3,0.6-0.6,0.6h-4.2v4.2c0,0.3-0.3,0.6-0.6,0.6h-1.2c-0.3,0-0.6-0.3-0.6-0.6v-4.2h-4.2c-0.3,0-0.6-0.3-0.6-0.6v-1.2
+				c0-0.3,0.3-0.6,0.6-0.6h4.2v-4.2c0-0.3,0.3-0.6,0.6-0.6h1.2c0.3,0,0.6,0.3,0.6,0.6v4.2h4.2c0.3,0,0.6,0.3,0.6,0.6L-233.4,420.5
+				L-233.4,420.5z"/>
+								</g>
+							</g>
+						</g>
+					</svg>
 				</a>
 			</div>
 	
 			<?php get_template_part('partials/subscribe');?>
 		</div>
-		<p class="copyright center">© TaxFree Blockchain 2018</p>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pads">
+			<p class="copyright center">© TaxFree Blockchain 2018</p>
+		</div>
 	</div>
 </div>
 

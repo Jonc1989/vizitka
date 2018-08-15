@@ -30,31 +30,18 @@
                             <li><a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a></li>
                         <?php } ?>
 
-                        <li>
-                            <?php
-                            global $q_config, $wp; $image_path = null;
-                            $current_url = home_url(add_query_arg(array(),$wp->request)); ?>
+                        <?php
+                        global $q_config, $wp; $image_path = null;
+                        $current_url = home_url(add_query_arg(array(),$wp->request));
 
-                            <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">
-                                    <span class="locale"><?php echo qtranxf_getLanguage(); ?></span>
-                                    <span class="caret">
-                                        <img class="caret-white" src="<?php bloginfo('template_directory');?>/resources/images/caret-white.png">
-                                        <img class="caret-black" src="<?php bloginfo('template_directory');?>/resources/images/caret-black.png">
-                                    </span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <?php foreach(qtrans_getSortedLanguages() as $language) { ?>
-                                        <?php if( qtranxf_getLanguage() !== $language ){ ?>
-                                            <li><a href="<?php echo qtrans_convertURL($current_url, $language, false, true)?>"><?php echo strtoupper( $language ); ?></a></li>
-                                        <?php }?>
-                                    <?php } ?>
-                                </ul>
-                            </div>
-                        </li>
+                        foreach(qtrans_getSortedLanguages() as $language) {
+                            $class = '';
+                            if( qtranxf_getLanguage() === $language ){
+                                $class = 'active';
+                            }?>
+                                <li><a class="<?php echo $class;?>" href="<?php echo qtrans_convertURL($current_url, $language, false, true)?>"><?php echo strtoupper( $language ); ?></a></li>
+                        <?php } ?>
                     </ul>
-
-
                 </div>
             </div>
         </nav>

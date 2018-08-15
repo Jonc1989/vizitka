@@ -17,7 +17,21 @@
   .post {
     height: 300px;
   }
-
+  .subscribe{
+    p{
+      padding-left: 21px;
+      &::before{
+        content: '';
+        width: 11px;
+        height: 11px;
+        background-color: #6cb319;
+        position: absolute;
+        border-radius: 50%;
+        top: 4px;
+        left: 0px;
+      }
+    }
+  }
 }
 @media (min-width: 1200px){
   #banner {
@@ -128,11 +142,16 @@
   }
   .subscribe{
     width: 60%;
+    margin-bottom: 3rem;
     .es_button, .es_textbox{
       width: 100%;
       input{
         width: 100%;
       }
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
     }
   }
   #posts {
@@ -148,15 +167,19 @@
     padding-top: 30rem;
   }
   .soc-icons{
+    margin-bottom: 3.5rem;
     a {
       margin-right: 5rem;
     }
-    img {
+    img, svg {
       width: 4rem;
       height: 4rem;
     }
   }
-
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 16px;
+  }
   .menu-container {
     background-color: #24195e;
     padding-top: 1rem;
@@ -176,10 +199,7 @@
     .navbar-collapse {
       box-shadow: none;
     }
-    .navbar-default .navbar-nav > li > a {
-      color: #ffffff;
-      //font-size: 18px;
-    }
+
     .dropdown-toggle {
       padding-left: 8px;
     }
@@ -193,9 +213,18 @@
     .open>.dropdown-menu {
       display: inline-block;
     }
+    &.sticky {
+      padding-top: 1rem;
+    }
   }
   .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
     padding: 5px 15px 5px 0px;
+  }
+  .navbar {
+    min-height: 37px;
+  }
+  .block-chain{
+    padding: 1.5rem 2rem;
   }
 }
 @media (max-width: 600px){
@@ -204,6 +233,13 @@
   }
   .soc-icons a {
     margin-right: 4rem;
+  }
+  .block-chain{
+    text-align: center;
+    img{
+      display: none;
+
+    }
   }
 }
 @media (max-width: 480px){
@@ -220,6 +256,6 @@
 }
 @media (max-width: 360px){
   .soc-icons a {
-    margin-right: 1rem;
+    margin-right: 5rem;
   }
 }

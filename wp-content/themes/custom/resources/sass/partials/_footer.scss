@@ -22,10 +22,14 @@
     &:last-of-type{
       margin-right: 0;
     }
+    &:hover{
+      .st0{fill:#6cb319;}
+    }
   }
-  img{
+  img, svg{
     width: 5rem;
     height: 5rem;
+    vertical-align: middle;
   }
 }
 .block-chain{

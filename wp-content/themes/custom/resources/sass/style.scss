@@ -18,6 +18,9 @@ body > .container{
   min-height:100%;
 }
 
+input{
+  outline: 0;
+}
 a, button {
    outline: 0;
    text-decoration: none;
@@ -139,7 +142,7 @@ img{
 .counter-wrap p{
   font-size: 1.2rem;
 }
-.title, .post-wrap h3, button, .st0{
+.title, .post-wrap h3, button, .st0, .es_button input, #banner img{
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s;
@@ -152,6 +155,11 @@ img{
   transition: color .3s;
 }
 
+.loaded{
+  #banner img{
+      opacity: 1;
+  }
+}
 @import "responsive/_lg";
 @import "responsive/_md";
 @import "responsive/_sm";

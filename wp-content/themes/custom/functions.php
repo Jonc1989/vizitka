@@ -70,31 +70,43 @@ function register_custom_fields() {
     );
 
     add_settings_field(
-        'telegraph_input',
-        'Telegraph page',
+        'instagram_input',
+        'Instagram page',
         'input_callback',
         'general',
         'custom_fields',
         array(
-            'telegraph_input'
+            'instagram_input'
         )
     );
 
     add_settings_field(
-        'video_input',
-        'Video',
+        'google_input',
+        'Google+ page',
         'input_callback',
         'general',
         'custom_fields',
         array(
-            'video_input'
+            'google_input'
         )
     );
 
+	add_settings_field(
+		'linkedin_input',
+		'LinkedIn page',
+		'input_callback',
+		'general',
+		'custom_fields',
+		array(
+			'linkedin_input'
+		)
+	);
+
     register_setting( 'general', 'facebook_input', 'esc_attr' );
     register_setting( 'general', 'twitter_input', 'esc_attr' );
-    register_setting( 'general', 'telegraph_input', 'esc_attr' );
-    register_setting( 'general', 'video_input', 'esc_attr' );
+    register_setting( 'general', 'instagram_input', 'esc_attr' );
+    register_setting( 'general', 'google_input', 'esc_attr' );
+	register_setting( 'general', 'linkedin_input', 'esc_attr' );
 }
 add_action( 'admin_init', 'register_custom_fields' );
 

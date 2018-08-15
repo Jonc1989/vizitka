@@ -4,7 +4,7 @@
 #banner{
   padding-top: 30rem;
 
-  background: url(resources/images/top-bg.png)no-repeat center center;
+  background: url(resources/images/top-bg.jpg)no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +13,7 @@
     padding-bottom: 3.5rem;
   }
   .left-block{
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     p{
       font-size: 1.8rem;
       line-height: 1.78;
@@ -27,9 +27,17 @@
       color: #6cb319;
       border: solid 3px #6cb319;
       background-color: transparent;
+      &:hover{
+        color: #a7de68;
+        border: solid 3px #a7de68;
+      }
     }
   }
+  img{
+    opacity: 0;
+  }
 }
+
 .subscribe{
   width: 827px;
   margin: 0 auto;
@@ -47,19 +55,19 @@
   :-moz-placeholder { /* Firefox 18- */
     color: #ffffff;
   }
-  p{
-    padding-left: 21px;
-    &::before{
-      content: '';
-      width: 11px;
-      height: 11px;
-      background-color: #6cb319;
-      position: absolute;
-      border-radius: 50%;
-      top: 4px;
-      left: 0px;
-    }
-  }
+  //p{
+  //  padding-left: 21px;
+  //  &::before{
+  //    content: '';
+  //    width: 11px;
+  //    height: 11px;
+  //    background-color: #6cb319;
+  //    position: absolute;
+  //    border-radius: 50%;
+  //    top: 4px;
+  //    left: 0px;
+  //  }
+  //}
 
 
 }
@@ -89,6 +97,10 @@
     background-color: #6cb319;
     border: none;
     font-size: 1.6rem;
+    &:hover{
+      background-color: white;
+      color: #6cb319;
+    }
   }
 }
 .divider{
