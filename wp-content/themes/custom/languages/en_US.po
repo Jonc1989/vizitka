@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2016-09-30 17:43+0300\n"
 "POT-Revision-Date: Mon Jul 25 2016 08:51:33 GMT+0700 (SE Asia Standard Time)"
 "\n"
-"PO-Revision-Date: 2018-06-28 14:03+0000\n"
+"PO-Revision-Date: 2018-08-21 08:35+0000\n"
 "Language-Team: English (United States)\n"
 "Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
@@ -22,3 +22,36 @@ msgstr ""
 "Last-Translator: admin <janis.mozais@ms-idi.eu>\n"
 "Language: en-US\n"
 "X-Poedit-SearchPath-0: .."
+
+msgid "Nовая эра для туристов"
+msgstr "Nовая эра для туристов"
+
+msgid ""
+"100%  возврат НДС в момент покупки товара с помощью мобильного приложения и "
+"картой Tax Free"
+msgstr ""
+"100%  возврат НДС в момент покупки товара с помощью мобильного приложения и "
+"картой Tax Free"
+
+msgid ""
+"Технология Blockchain обеспечивает высокий уровень защиты и идентификации"
+msgstr ""
+"Технология Blockchain обеспечивает высокий уровень защиты и идентификации"
+
+msgid "Скачать приложение"
+msgstr "Скачать приложение"
+
+msgid "Подпишитесь на TaxFree новости и получите карту первым!"
+msgstr "Подпишитесь на TaxFree новости и получите карту первым!"
+
+msgid "Технология Blockchain"
+msgstr "Технология Blockchain"
+
+msgid "Блокчейн обеспечивает высокий уровень защиты и идентификации"
+msgstr "Блокчейн обеспечивает высокий уровень защиты и идентификации"
+
+msgid "Email placeholder"
+msgstr "Email placeholder"
+
+msgid "Подписаться"
+msgstr "Subscribe"

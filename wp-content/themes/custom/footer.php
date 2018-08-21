@@ -7,8 +7,8 @@
 					<img src="<?php bloginfo('template_directory');?>/resources/images/svg/block-chain.svg">
 				
 				<div class="text">
-					<h1 class="title">Технология Blockchain</h1>
-					<p>Блокчейн обеспечивает высокий уровень защиты и идентификации</p>
+					<h1 class="title"><?php echo __( 'Технология Blockchain', 'taxfree' ) ?></h1>
+					<p><?php echo __( 'Блокчейн обеспечивает высокий уровень защиты и идентификации', 'taxfree' ) ?></p>
 				</div>
 			</div>
 
