@@ -56,3 +56,6 @@ msgstr "Subscribe!"
 
 msgid "Информация"
 msgstr "Информация"
+
+msgid "Вход"
+msgstr "Вход"

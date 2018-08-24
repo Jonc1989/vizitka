@@ -6,7 +6,7 @@
 				<?php if( qtranxf_getLanguage() === "ru" ){ ?>
 					<img src="<?php bloginfo('template_directory');?>/resources/images/phone_ru.png">
 				<?php }else{ ?>
-					<img src="<?php bloginfo('template_directory');?>/resources/images/phone_ru.png">
+					<img src="<?php bloginfo('template_directory');?>/resources/images/phone_en.png">
 				<?php } ?>
 
 			</div>
