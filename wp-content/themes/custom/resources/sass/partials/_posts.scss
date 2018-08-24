@@ -1,6 +1,11 @@
 #posts{
   padding-top: 10rem;
+  h1.main-title{
+    max-width: 100%;
+    margin-bottom: 6rem;
+  }
 }
+
 .post-content{
   font-size: 18px;
   line-height: 1.78;

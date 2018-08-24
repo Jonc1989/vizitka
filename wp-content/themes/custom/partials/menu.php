@@ -41,6 +41,7 @@
                             }?>
                                 <li><a class="<?php echo $class;?>" href="<?php echo qtrans_convertURL($current_url, $language, false, true)?>"><?php echo strtoupper( $language ); ?></a></li>
                         <?php } ?>
+                        <li><a href="#"><?php echo __( 'Вход', 'taxfree' ) ?></a></li>
                     </ul>
                 </div>
             </div>

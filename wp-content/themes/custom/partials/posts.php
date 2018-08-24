@@ -1,4 +1,5 @@
 <div id="posts" class="col-xs-12 clear-pads">
+        <h1 class="main-title bold center"><?php echo __( 'Информация', 'taxfree' ) ?></h1>
     <div class="container  clear-pads">
 
 

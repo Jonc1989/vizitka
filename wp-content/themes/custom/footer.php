@@ -38,7 +38,6 @@
 						</g>
 					</svg>
 					
-<!--					<img src="--><?php //bloginfo('template_directory');?><!--/resources/images/svg/linkedin.svg">-->
 				</a>
 	
 				<a target="_blank" href="<?php echo get_option( 'twitter_input' ); ?>">

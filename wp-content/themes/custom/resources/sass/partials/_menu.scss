@@ -169,17 +169,18 @@
 .nav{
   padding-top: 10px;
 }
-.nav.navbar-nav{
-  li:nth-of-type(6){
-    a{
-      transition: color .3s;
-      border-radius: 3px;
-    }
-    a:hover{
-      color: white;
-    }
-  }
-}
+//.nav.navbar-nav{
+//  li:nth-of-type(6){
+//    a{
+//      transition: color .3s;
+//      border-radius: 3px;
+//    }
+//    a:hover{
+//      color: white;
+//    }
+//  }
+//}
+
 .dropdown{
   .locale{
     font-size: 16px;

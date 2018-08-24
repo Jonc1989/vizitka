@@ -102,11 +102,23 @@ function register_custom_fields() {
 		)
 	);
 
+	add_settings_field(
+		'telegram_input',
+		'Telegram page',
+		'input_callback',
+		'general',
+		'custom_fields',
+		array(
+			'telegram_input'
+		)
+	);
+
     register_setting( 'general', 'facebook_input', 'esc_attr' );
     register_setting( 'general', 'twitter_input', 'esc_attr' );
     register_setting( 'general', 'instagram_input', 'esc_attr' );
     register_setting( 'general', 'google_input', 'esc_attr' );
 	register_setting( 'general', 'linkedin_input', 'esc_attr' );
+	register_setting( 'general', 'telegram_input', 'esc_attr' );
 }
 add_action( 'admin_init', 'register_custom_fields' );
 
